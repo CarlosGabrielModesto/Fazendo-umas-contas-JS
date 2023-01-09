@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-primaria: #cf0f0f;
+    --contraste-cor-primaria: #ffffff;
+    --font-family: "Mouse Memoirs", sans-serif;
+    --body-background-color: #e3e3e3;
+}
+
+body {
+    background-color: #e3e3e3;
+}
+
+body h1 {
+    font-family: var(--font-family);
+    font-size: 108px;
+    text-transform: uppercase;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 230px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+span{
+    color: #cf0f0f;
+}
+
+button {
+    font-size: 12pt;
+    padding: 30px;
+    color: var(--cor-primaria);
+    border: 3px solid black;
+    display: block;
+    position: relative;
+    border-radius: 50px;
+   
+}
+
+button:hover {
+    background-color: var(--cor-primaria);
+    color: var(--contraste-cor-primaria);
+}
+
+#res{
+    font-size: 40px;
+    text-align: center;
+    margin: 50px;
+    font-family: var(--font-family);
+}
